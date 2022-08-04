@@ -45,3 +45,11 @@ function winningTeam() {
     }
 }
 
+function resetScore() {
+    homePoints = 0
+    guestPoints = 0
+    scoreGuest.innerText = guestPoints
+    scoreHome.innerText = homePoints
+    winTeam.innerText = "START THE MATCH"
+}
+

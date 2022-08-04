@@ -7,27 +7,30 @@
     <title>Score Board</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body onload="javascript:winningTeam()">
-    
+<body>
+<!-- <body onload="javascript:winningTeam()">     -->
 <div class="wrapper">
     <div class="container">
         <div id="home-el">
             <h3>HOME</h3>
             <h2 id="score-home">0</h2>
-            <button id="point-home1" onclick="homeOne(),winningTeam()">+1</button>
-            <button id="point-home2" onclick="homeTwo(),winningTeam()">+2</button>
-            <button id="point-home3" onclick="homeThree(),winningTeam()">+3</button>
+            <button class="button-action" onclick="homeOne(),winningTeam()">+1</button>
+            <button class="button-action" onclick="homeTwo(),winningTeam()">+2</button>
+            <button class="button-action" onclick="homeThree(),winningTeam()">+3</button>
         </div>
         <div id="guest-el">
             <h3>GUEST</h3>
             <h2 id="score-guest">0</h2>
-            <button id="point-guest1" onclick="guestOne(),winningTeam()">+1</button>
-            <button id="point-guest2" onclick="guestTwo(),winningTeam()">+2</button>
-            <button id="point-guest3" onclick="guestThree(),winningTeam()">+3</button>
+            <button class="button-action" onclick="guestOne(),winningTeam()">+1</button>
+            <button class="button-action" onclick="guestTwo(),winningTeam()">+2</button>
+            <button class="button-action" onclick="guestThree(),winningTeam()">+3</button>
         </div>
-        
     </div>
-    <p id="win-team-name">test</p>
+    
+    <div id="reset-score-btn">
+        <p id="win-team-name">START THE MATCH</p>
+        <button id="reset-score" onclick="resetScore()">RESET SCORE</button>
+    </div>
 </div>    
     
     <script src="index.js"></script>
