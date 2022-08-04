@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 400px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#win-team-name {
+    padding: 20px 0px;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    font-size: 18px;
+    background-color: rgb(36, 36, 110);
+    border-color: white;
+    color: white;
+    height: 39px;
+    width: 39px;
+
+    font-family: 'Orbitron', sans-serif;
+    /* color: white;
+    background-color: red; */
+}
+
+h2 {
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+}
+
+#score-home {
+    background-color: black;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#score-guest {
+    background-color: black;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    border: 5px solid white;
+    background-color: rgb(36, 36, 110);
+    border-radius: 25px;
+}
+
+h3 {
+    font-size: 38px;
+    color: white;
+}
+
+p {
+    font-size:24px;
+    color: white;
+}
+
+
+/* display: flex;
+justify-content: space-between;
+align-items: end;
+flex-direction: column; */
+/* justify content регулирует сторону (справа, слева, центр, расстояние равное между ними
+и так далее. */
+/* align-items регулирует высоту в диве, центр, верх, низ */
