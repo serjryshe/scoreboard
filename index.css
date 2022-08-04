@@ -28,10 +28,7 @@ button {
     color: white;
     height: 39px;
     width: 39px;
-
     font-family: 'Orbitron', sans-serif;
-    /* color: white;
-    background-color: red; */
 }
 
 h2 {
@@ -71,12 +68,3 @@ p {
     font-size:24px;
     color: white;
 }
-
-
-/* display: flex;
-justify-content: space-between;
-align-items: end;
-flex-direction: column; */
-/* justify content регулирует сторону (справа, слева, центр, расстояние равное между ними
-и так далее. */
-/* align-items регулирует высоту в диве, центр, верх, низ */
