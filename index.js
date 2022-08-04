@@ -36,8 +36,7 @@ let winTeam = document.getElementById("win-team-name")
 function winningTeam() {
     if (homePoints > guestPoints) {
         let pointsDifference = homePoints - guestPoints + " points"
-        winTeam.innerText = "Home Leads: " + pointsDifference
-        
+        winTeam.innerText = "Home Leads: " + pointsDifference    
     } else if (guestPoints > homePoints) {
         let pointsDifference = guestPoints - homePoints
         winTeam.innerText = "Guest Leads: " + pointsDifference + " points"
